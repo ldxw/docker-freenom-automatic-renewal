@@ -4,7 +4,7 @@ MAINTAINER RouRouX <itrourou@gmail.com>
 ENV CRON="00 09 * * *"
 
 RUN apk add git tzdata && \
-	git clone https://github.com/luolongfei/freenom.git && \
+	git clone https://github.com/ldxw/freenom.git && \
 	cp /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
 	apk del tzdata git && \
 	mkdir -p /confbak/ && \
