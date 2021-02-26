@@ -9,12 +9,12 @@
 
 默认命令
 ```
-docker run -d --name freenom -v <path to config>:/conf rouroux/freenom-automatic-renewal
+docker run -d --name freenom -v <path to config>:/conf ldxw/freenom-automatic-renewal
 ```
 
 自定义脚本执行时间（每天早上9点）
 ```
-docker run -d --name freenom -e CRON="00 09 * * *" -v <path to config>:/conf rouroux/freenom-automatic-renewal
+docker run -d --name freenom -e CRON="00 09 * * *" -v <path to config>:/conf ldxw/freenom-automatic-renewal
 ```
 
 ## 支持环境：
