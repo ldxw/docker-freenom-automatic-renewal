@@ -40,4 +40,4 @@ jobs:
         with:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_PASSWORD }}
-          repository: rouroux/freenom-automatic-renewal
+          repository: ldxw/freenom-automatic-renewal
